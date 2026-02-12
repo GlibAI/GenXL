@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "genxl"
+version = "0.1.0"
+description = "A tool that converts structured JSON data into organized and formatted Excel reports."
+authors = ["parikhvedant2003 <parikhvedant2003@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.13"
+openpyxl = "^3.1.5"
+pandas = "^1.5.3"
+numpy = "^1.26.0"
+openai = "^2.15.0"
+py-toon-format = "^0.1.0"
+dotenv = "^0.9.9"
+google-genai = "^1.60.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
